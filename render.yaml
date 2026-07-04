@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: url-shortener
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    disk:
+      name: url-shortener-data
+      mountPath: /opt/render/project/src
+      sizeGB: 1
