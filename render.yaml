@@ -5,7 +5,3 @@ services:
     plan: free
     buildCommand: npm install
     startCommand: npm start
-    disk:
-      name: url-shortener-data
-      mountPath: /opt/render/project/src
-      sizeGB: 1
