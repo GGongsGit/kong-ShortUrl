@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: url-shortener
+    name: kshort
     env: node
     plan: free
     buildCommand: npm install
